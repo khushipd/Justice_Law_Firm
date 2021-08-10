@@ -1,0 +1,98 @@
+ /*-----------------------------------------------
+     --------------practice area----------------------
+     ------------------------------------------------*/
+ 
+ @media screen and (max-width: 640px) {
+     .image_ {
+         display: none;
+     }
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .image_ {
+     background: black url(header.png) no-repeat;
+     background-size: cover;
+     height: 400px;
+ }
+ 
+ .image_ h1 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding: 10%;
+     text-align: right;
+ }
+ 
+ .start h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 32px;
+     color: darkolivegreen;
+ }
+ 
+ .start {
+     background-color: peru;
+ }
+ 
+ .practice_text {
+     padding: 50px;
+     text-align: center;
+ }
+ 
+ .centre {
+     padding: 20px;
+     align-items: center;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     margin-bottom: 100px;
+     border-style: hidden;
+     align-items: center;
+ }
+ 
+ table td {
+     border: 2px solid peru;
+ }
+ 
+ @media screen and (max-width: 640px) {
+     table,
+     td,
+     th,
+     tr {
+         display: block;
+     }
+ }
+ 
+ .block-disclosure {
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     overflow: hidden;
+ }
+ 
+ .block-disclosure-body {
+     padding: 24px 20px;
+     transition: .3s ease-out;
+ }
+ 
+ .block-disclosure-title {
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 20px;
+ }
+ 
+ .block-disclosure a,
+ .block-disclosure a:focus,
+ .block-disclosure a:active {
+     color: rgb(71, 68, 68);
+ }
+ 
+ .block-disclosure:hover {
+     background-color: peru;
+ }
+ 
+ .block-disclosure:hover a {
+     color: white;
+ }
